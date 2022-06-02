@@ -1,0 +1,18 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Case converter",
+  "description": "Quickly change the case (UPPER, lower, snake_case, camelCase, etc)",
+  "developer_name": "d-enk",
+  "icon": "images/icon.svg",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "case-kw",
+      "type": "keyword",
+      "name": "Case Converter",
+      "default_value": "case"
+    }
+  ]
+}
